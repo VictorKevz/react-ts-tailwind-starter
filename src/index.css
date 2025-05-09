@@ -16,22 +16,15 @@
 ::after,
 ::before {
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
-button,
-fieldset,
-input {
-  border: none;
-  outline-color: var(--accent-purple);
-  cursor: pointer;
-}
+
 button,
 a {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 a {
